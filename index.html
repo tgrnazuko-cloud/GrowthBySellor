@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professional business services you can trust.">
+  <title>SELLOR STORE | Professional Services</title>
+
+  <style>
+    body {
+      background-color: darkkhaki;
+    }
+  </style>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">SELLOR SERVICE<span>.</span></a>
+
+      <button class="menu-toggle" id="menu-toggle"
+        aria-label="Toggle navigation" aria-expanded="false">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact" class="nav-button">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero section -->
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <p class="eyebrow">WELCOME TO SELLOR SERVICE</p>
+        <h1>Build Your Future.<br><span>Grow Your Business.</span></h1>
+        <p class="hero-description">
+          We Will Boost YOur Social Media &
+          Grow YOur Business. Contact Us For MOre Details.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#services" class="btn btn-primary">Explore Services</a>
+          <a href="#contact" class="btn btn-outline">Let's Talk</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services section -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">WHAT WE DO</p>
+          <h2>Our Services</h2>
+          <p>Practical solutions to help your business move forward.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-icon">✦</div>
+            <h3>Business Consulting</h3>
+            <p>
+              Get practical guidance to improve your business
+              strategy, planning, and performance.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">◈</div>
+            <h3>Digital Solutions</h3>
+            <p>
+              Build a stronger online presence with modern
+              websites and digital experiences.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">↗</div>
+            <h3>Growth Strategy</h3>
+            <p>
+              Discover opportunities, connect with customers,
+              and develop your business for the future.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div class="about-visual">
+          <div class="about-symbol">SS</div>
+          <p>Ideas into action.<br>Vision into growth.</p>
+        </div>
+
+        <div class="about-content">
+          <p class="eyebrow">ABOUT OUR BUSINESS</p>
+          <h2>Your Success Is Our Priority</h2>
+          <p>
+            We believe every business has the potential to achieve
+            something remarkable. Our goal is to provide thoughtful,
+            reliable solutions that help you take the next step.
+          </p>
+          <p>
+            We focus on understanding your needs, building trust,
+            and delivering work that makes a difference.
+          </p>
+          <a href="#contact" class="text-link">Work with us →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="section contact" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">GET IN TOUCH</p>
+          <h2>Let's Build Something Great Together.</h2>
+          <p>
+            Have a question or an idea? Send us a message
+            and let's start a conversation.
+          </p>
+          <p class="contact-note">
+            Replace this text with your real business email
+            and contact details.
+          </p>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text"
+            placeholder="Enter your name" required>
+
+          <label for="email">Email address</label>
+          <input id="email" name="email" type="email"
+            placeholder="you@example.com" required>
+
+          <label for="message">Your message</label>
+          <textarea id="message" name="message" rows="4"
+            placeholder="How can we help?" required></textarea>
+
+          <button type="submit" class="btn btn-primary">
+            Send Message
+          </button>
+
+          <p id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <a href="#home" class="logo">Sellor Service<span>.</span></a>
+      <p>© <span id="year"></span> SS Business. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
